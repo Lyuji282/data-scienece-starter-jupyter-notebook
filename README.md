@@ -1,9 +1,13 @@
 # data-scienece-starter-jupyter-notebook
 
+## Functionality
+
+Python、R，Juliaが使えるJupyternotebookの環境を構築する
+
 ## Initialization
 
 
-1. docker & docker-composeをインストール
+### docker & docker-composeをインストール
 
 Docker のインストール — Docker-docs-ja 17.06.Beta ドキュメント
 http://docs.docker.jp/engine/installation/
@@ -13,7 +17,7 @@ http://docs.docker.jp/compose/install.html
 
 
 
-2. 立ち上げコマンド
+### 立ち上げコマンド
 
 
 
@@ -26,9 +30,8 @@ docker-compose up -d
 
 ```
 ct=jupyter
-docker logs $ct
+docker logs $ct
 ```
-
 
 ⬆︎で、tokenを確認する
 
@@ -41,5 +44,6 @@ http://(c33e967ee0f1 or 127.0.0.1):8888/?token=dffe7c6b3883385cf4adc9f285054b5d3
 
 ⬆のtoken=以下がloginに必要なパスワード
 
+http://localhost:8899
 
-http://localhost:8899に、アクセスして、パスワードを入力する
+に、アクセスして、パスワードを入力する
